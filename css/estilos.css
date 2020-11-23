@@ -477,6 +477,12 @@ only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
 
 .content-box.box-1 {
 	font-size: 14px;
+	width: 101%;
+	position: relative;
+	left: -7px;
+	top: -6px;
+
+	
 }
 
 .content-box.box-1 .header {
@@ -593,7 +599,7 @@ only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
 }
 
 .content-box.box-4 .wrap-box {
-	padding: 70px 0 0;
+	padding: 0px 0 0;
 }
 
 .content-box.box-4 a {
@@ -611,62 +617,30 @@ only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
 	}
 }
 
-.content-box.box-5 {
-	margin-left: 0px;
-	margin-top: 30px;
-	min-height: 470px;
-	min-width: auto;
-	position: center;
+.content-box.box-5 {min-height: 580px;}
+.content-box.box-5 h3{font-size: 42px;font-weight: 500;margin: 70px 0 70px;text-align: center;color: #e1e1e1;}
+.content-box.box-5 span{color: #01BAFD;}
+.content-box.box-5 img {float:left; display: inline-block; margin-right: 30px;max-width: 190px;}
+.content-box.box-5 .wrap-box{padding-left: 230px;padding-right: 230px;}
+@media all and (max-width: 767px){
+	.content-box.box-5 img {float:none; display: block; max-width: 250px;margin: 0 auto 30px}
+	.content-box.box-5 .wrap-box{padding-left: 30px;padding-right: 30px;}
 }
 
-.content-box.box-5 h3 {
-	font-size: 42px;
-	font-weight: 500;
-	margin: 0 0 70px;
-	text-align: center;
-	color: #e1e1e1;
+.content-box.box-6 {
+	position: relative;
+	top: 50px;
 }
-
-.content-box.box-5 span {
-	color: #0f5974;
-}
-
-.content-box.box-5 img {
-	float: left;
-	display: inline-block;
-	/*margin-right: 30px;*/
-	max-width: 290px;
-}
-
-.content-box.box-5 .wrap-box {
-	padding-left: 230px;
-	padding-right: 230px;
-}
-
-@media all and (max-width: 1080px) {
-	 .content-box.box-5 img {
-		/*float: none;*/
-		/*display: block;*/
-		max-width: 250px;
-		margin: 0 auto 30px
-	}
-
-	.content-box.box-5 .wrap-box {
-		padding-left: 230px;
-		padding-right: 230px;
-	}
-}
-
-.content-box.box-6 {}
 
 .content-box.box-6 .extra img {
+	margin-top: 0px;
 	height: 150px;
 	width: 100%;
 	max-width: 243px;
 }
 
 .content-box.box-6 .extra {
-	margin-bottom: 30px;
+	margin-bottom: 120px;
 }
 
 .content-box.box-6 .post h3 a,
@@ -679,10 +653,12 @@ h4 a {
 	margin: 10px 0 15px 0;
 }
 
-.content-box.box-6 .info {}
+.content-box.box-6 .info {
+	color: #333;
+}
 
 .content-box.box-6 .r-slidebar {
-	border-left: 1px solid #ddd;
+	border-left: 1px solid  #333;
 }
 
 .content-box.box-6 .r-slidebar ul li {
@@ -691,7 +667,7 @@ h4 a {
 
 .content-box.box-6 .r-slidebar .post {
 	margin-bottom: 20px;
-	border-bottom: 1px solid #ddd;
+	border-bottom: 1px solid  #333;
 	padding-bottom: 10px;
 }
 
